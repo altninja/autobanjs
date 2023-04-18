@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title AutoBan API
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+  body
+    .container
+      h1 AutoBan API
+      form(method="post", action="/")
+        .form-group
+          label(for="input") Enter Text:
+          input#input.form-control(type="text", name="input", required)
+        button.btn.btn-primary(type="submit") Submit
